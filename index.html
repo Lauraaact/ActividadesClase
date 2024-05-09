@@ -1,0 +1,138 @@
+<!-- Comentarios :) -->
+
+<!--Notas: Informacion de apoyo
+Documentación: Orden al código -->
+
+<!--ctrl + } : comenta y descomenta
+Maquetación basica : En todas las paginas
+Atajos : html:5 o !-->
+
+<!--HTML -> Lenguaje de marcado de hipertexto
+    
+    Marcado -> Etiquetas
+    Etiqueta de apertura <head>
+    Etiqueta de cierre </head>
+
+    Hipertexto -> Redireccionar a otra páginas html
+-->
+
+<!DOCTYPE html> <!--Se escribira en html-->
+<html lang="en"> <!--Idioma del sitio web-->
+<head>
+    <!--Cabeza sitio web
+        No se ve pero es necesario para funcionamiento
+        - Links -> Vinculan archivos .css y .js
+        - Links de los estilos(css)
+        - Links de JavaScript
+        - Metadatos -> Enfocados SEO -> Posicionamiento web
+    -->
+    <meta charset="UTF-8"> <!--Permite caracteres especiales (ñ,@,&, ...)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport -> El sitio se puede ver en dif. dispositivos-->
+    <!--Metadatos: Informacion sitio web-->
+    <!--DOCUMENTACIÓN: Títulos y descripciones meta-->
+    <meta name="author" content="lauraaact">
+    <meta name="keywords" content="Ingenieria">
+    <meta name="descriptions" content="pagina presentacion">
+    <!--Link a mis estilos-->
+    <!--
+        href -> Donde especifica rutas de estilos
+    -->
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!--link favicon - Logo-->
+    <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
+    <!--Link icono-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Portafolio (lauraaact)</title>
+</head>
+<body>
+    <!--Lo que se quiere crear-->
+    <!--alt + z : Organiza-->
+    <header>
+        <!--Encabezado-->
+        <nav>
+            <!--Menú de navegación-->
+            <!--Siempre son listas
+                listas ordenadas - ol numeradas(Order list)
+                Listas desordenadas - ul (Unorder List)
+                Cada lista tiene su elemento
+                etiqueta -> li - List Item
+            -->
+            <hr>
+            <!--Etiqueta de separación-->
+            <ul>
+                <li>
+                    <a href="#">seccion 1</a>
+                </li>
+                <li>
+                    <a href="./index.html"></a>
+                    <img src="./assets/Logo - copia.png" alt="Logo">
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Contenido-->
+        <!--Etiqueta section: divide en tematicas generales de contenido-->
+        <section>
+            <!--
+                Etiquetas de títulos:
+                h1 - Título principal (solo uno)
+                h2 - Título de secciones de contenido
+                h3 - h6 - Subtítulos
+                lorem - Texto falso
+            -->
+            <h1>TITULO PRINCIPAL</h1>
+            <!--Etiqueta DIV (No semantico)-->
+            <!-- 
+                <div> - contenedor de elementos
+                <span> - Modificaciones especificas
+                Todo lo no semantico nos lleva a estilos
+                
+            -->
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DAIxrSvq6bo?si=l4EUygsrMb4s3he-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.707777479622!2d-71.20345257514205!3d42.327431187164294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e38270f12eb9b9%3A0x35638abef114b341!2sCrystal%20Lake!5e0!3m2!1ses-419!2sco!4v1715220278554!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam esse, doloribus obcaecati sit doloremque magnam porro neque consequuntur, architecto ipsa optio magni dolores voluptatibus facere iste qui rerum dolorum repellendus?</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--Pie de página-->
+        <!--División de contenido contacto-->
+        <div>
+            <h3>Contáctame</h3>
+            <li>Teléfono: 3503755082</li>
+            <li>Correo: lauracorredort99@gmail.com</li>
+            <li>Instagram: lauraaaact</li>
+        </div>
+        <!--División de contenido logo-->
+        <div>
+            <img src="" alt="">
+        </div>
+        <!--División de contenido -->
+        <div>
+            <h3>Redes sociales</h3>
+            <div>
+                <a href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
