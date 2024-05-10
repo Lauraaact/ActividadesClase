@@ -1,4 +1,94 @@
-/*Comentario en .css}*/
+/*Comentario en .css}
+hoja de estilos en casacada*/
 body{
     background-color:aliceblue
+
+}
+heater{
+    width: 100;
+    height: 100;
+    border: rebeccapurple;
+}
+
+/*Primero las importaciones*/
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+body{
+    font-family: "Poetsen One", sans-serif;
+}
+/*Establecer variables en css*/
+/*Paleta de colores, tipografias, constantes*/
+
+/*
+    selectores: permite conectar css a html
+        - etiqueta: general
+        - clases: un poco mas especifical (.)
+        - id: sumamente especificos (#)
+    Psceudoclases: Permiten idenficar caracteristicas particulares
+        :root
+    Pseudoelementos: 
+        ::after
+*/
+div {
+    background-color: aquamarine;
+}
+.seccionInformativa {
+    background-color: blueviolet;
+}
+#divVideo{
+    color: cadetblue;
+}
+
+/* Pseudo clase root hace ref. a todo el html*/
+:root{
+    --tipografia:"Jersey 25 Charted", sans-serif;
+    --backColor: #123412;
+}
+
+/* *selector universal - estilos a todos*/
+*{
+    /*Margen externo*/
+    margin: 0;
+    /*Margen interno*/
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/*---------HEADER---------*/
+header{
+    border: solid green;
+    /*VW - Ancho de pantalla*/
+    /*VH - Alto de pantalla*/
+    width: 100vw;
+    height: 100vh;
+    .menuNav {
+        background-color: antiquewhite;
+        border: 5px solid blue;
+        /*dispocision flexible uno al lado del otro*/
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    .listaMenu{
+        height: 100%;
+        width: 100%;
+        border: 5px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        font-size: 18px;
+        font-weight: hold;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+
 }

@@ -34,7 +34,7 @@ Atajos : html:5 o !-->
     <meta name="author" content="lauraaact">
     <meta name="keywords" content="Ingenieria">
     <meta name="descriptions" content="pagina presentacion">
-    <!--Link a mis estilos-->
+    <!--Link a mis estilos (Recursos - Solo en head)-->
     <!--
         href -> Donde especifica rutas de estilos
     -->
@@ -52,7 +52,7 @@ Atajos : html:5 o !-->
     <!--alt + z : Organiza-->
     <header>
         <!--Encabezado-->
-        <nav>
+        <nav class="menuNav">
             <!--Menú de navegación-->
             <!--Siempre son listas
                 listas ordenadas - ol numeradas(Order list)
@@ -62,13 +62,13 @@ Atajos : html:5 o !-->
             -->
             <hr>
             <!--Etiqueta de separación-->
-            <ul>
+            <ul class="listaMenu">
                 <li>
                     <a href="#">seccion 1</a>
                 </li>
                 <li>
                     <a href="./index.html"></a>
-                    <img src="./assets/Logo - copia.png" alt="Logo">
+                    <img src="./assets/Logo - copia.png" alt="Logo" class="logo">
                 </li>
                 <li>
 
@@ -95,12 +95,13 @@ Atajos : html:5 o !-->
                 Todo lo no semantico nos lleva a estilos
                 
             -->
-            <div>
+            <div class="seccionInformativa" id="divVideo">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/DAIxrSvq6bo?si=l4EUygsrMb4s3he-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.707777479622!2d-71.20345257514205!3d42.327431187164294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e38270f12eb9b9%3A0x35638abef114b341!2sCrystal%20Lake!5e0!3m2!1ses-419!2sco!4v1715220278554!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam esse, doloribus obcaecati sit doloremque magnam porro neque consequuntur, architecto ipsa optio magni dolores voluptatibus facere iste qui rerum dolorum repellendus?</p>
             </div>
             <div>
+                <!--Atributos caracteristicas extras-->
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
