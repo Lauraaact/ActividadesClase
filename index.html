@@ -1,0 +1,88 @@
+<!--ACTIVIDAD 2 :)-->
+<!--html:5-->
+<!DOCTYPE html>
+<!-- 1. Idioma: importante para pocisionamiento SEO -->
+<html lang="es">
+<head>
+    <!-- 2. Etiqueta meta: Autor, palabras clave, descripción -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Para copiar shift alt flecha abajo-->
+    <meta name="author" content="Laura Corredor">
+    <meta name="keyboard" content="practica, loros">
+    <meta name="description" content="Actividad práctica CSS">
+    <!-- 3.1. Links de estilos: Conección .css -->
+    <link rel="stylesheets" href="./actividad 2/styles/index.css">
+    <!-- 3.2. Link del icono: favicon -->
+    <link rel="shortcut icon" href="./actividad 2/assets/logo/favicon.webp">
+    <!-- 4.Título -->
+    <title>Práctica 2</title>
+</head>
+<body>
+    <!-- HEADER - Encabezado -->
+    <header>
+        <!-- Etiqueta nav -->
+        <nav class="menuNavegacion">
+            <!-- Caja para logo -->
+            <!-- Etiqueta semántica: Da estilo(div)(span) -->
+            <div class="logo">
+                <a href="#">
+                <!-- Etiqueta img logo-->
+                <img class="img-logo" src="./actividad 2/assets/logo/logo.webp" alt="logo">
+                <!-- Etiqueta para frase-->
+                <p class="p-logo">looking for <span class="span-logo">freedom</span></p>
+                </a>
+            </div>
+            <!-- Caja para menú de navegación -->
+            <ul class="listaMenu">
+                <!-- Lista de menú -->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Aliados</a></li>
+                <li><a href="#">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN - Contenido -->
+    <main>
+        <!-- Sección contenido principal -->
+        <section class="contenedorPrincipal">
+            <h1>Proyecto: Tomemos conciencia</h1>
+            <p>Lorem dolor sit amet consectetur adipisicing elit.</p>
+            <!--Aticle: contenedor para elementos que se relacionan entre si-->
+            <aticle class="contenedorImg">
+                <div class="imagenes img1">
+                    <img src="./actividad 2/assets/imagenes/img1.webp" alt="img-proyecto">
+                </div>
+                <div class="imagenes img2">
+                    <img src="./actividad 2/assets/imagenes/img2.webp" alt="img-proyecto">
+                </div>
+                <div class="imagenes img3">
+                    <img src="./actividad 2/assets/imagenes/img3.webp" alt="img-proyecto">
+                </div>
+                <div class="imagenes img4">
+                    <img src="./actividad 2/assets/imagenes/img4.webp" alt="img-proyecto">
+                </div>
+                <div class="imagenes img5">
+                    <img src="./actividad 2/assets/imagenes/img7.webp" alt="img-proyecto">
+                    <div class="parrafo-img">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptatibus animi earum vel aperiam iure pariatur, saepe commodi, eligendi, dignissimos voluptates asperiores ea ad illo porro sed voluptas ipsum laborum.</p>
+                    </div>
+                </div>
+            </aticle>
+        </section>
+        <section class="contenedorFlex">
+            <div class="flex-hijo">Caja 1</div>
+            <div class="flex-hijo">Caja 2</div>
+            <div class="flex-hijo">Caja 3</div>
+            <div class="flex-hijo">Caja 4</div>
+            <div class="flex-hijo">Caja 5</div>
+        </section>
+    </main>
+    <!-- FOOTER - Pie de página -->
+    <footer>
+        <p>Práctica de desarrollo creada por &copy; Lauraaaact 2024</p>
+    </footer>
+</body>
+</html>
