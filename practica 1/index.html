@@ -1,0 +1,117 @@
+<!--PRÁCTICA 1 :)-->
+<!--html:5-->
+<!DOCTYPE html>
+<!-- 1. Idioma: importante para pocisionamiento SEO -->
+<html lang="es">
+<head>
+    <!-- 2. Etiqueta meta: Autor, palabras clave, descripción -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Para copiar shift alt flecha abajo-->
+    <meta name="author" content="Laura Corredor">
+    <meta name="keyboard" content="practica1, cupcakes, panaderia">
+    <meta name="description" content="Actividad práctica CSS">
+    <!-- 3.1. Links de estilos: Conección .css -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- 3.2. Link del icono: favicon -->
+    <link rel="shortcut icon" href="./assets/Logo.png">
+    <!-- 4.Título -->
+    <title>Práctica 1</title>
+</head>
+<body>
+    <!-- HEADER - Encabezado -->
+    <header>
+        <!-- Etiqueta nav -->
+        <nav class="menuNavegacion">
+            <!-- Caja para logo -->
+            <!-- Etiqueta semántica: Da estilo(div)(span) -->
+            <div class="logo">
+                <a href="#">
+                <!-- Etiqueta img logo-->
+                    <img class="img-logo" src="./assets/Logo.png" alt="logo">
+                    <!-- Etiqueta para título-->
+                    <p class="p-logo">Cupcakes de <span class="span-logo">ensueño</span></p>
+                </a>
+            </div>
+            <!-- Caja para menú de navegación -->
+            <ul class="listaMenu">
+                <!-- Lista de menú -->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <img src="./assets/img9.jpeg" alt="img-proyecto" class="imgBanner">
+            <div class="parrafo-banner">
+                <h1>Cupcakes de ensueño<br><span class="slogan">Tu momento dulce del día</span></h1>
+            </div>
+        </section>
+    </header>
+    <!-- MAIN - Contenido -->
+    <main>
+        <!-- Sección contenido principal -->
+        <section class="contenedorPrincipal">
+            <img src="./assets/img4.jpeg" alt="img-proyecto" class="imgIntro">
+            <div class="introTxt">
+                <p><span class="span-intro">Cupcakes de ensueño</span> es un negocio dedicado a la elaboración y venta de cupcakes artesanales de alta calidad. Nuestra misión es llevar dulzura y alegría a cada ocasión, ofreciendo una amplia variedad de sabores clásicos y creativos que deleitan a todos los paladares.</p>
+            </div>
+        </section>
+        <section class="galeriaImg1">
+            <article class="contenedor1">
+                <div class="imagenes1 img1">
+                    <img src="./assets/img1.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img">
+                    <p>Utilizamos ingredientes frescos y naturales, asegurando que cada cupcake sea una experiencia única y deliciosa</p>
+                    </div>
+                </div>
+                <div class="imagenes1 img2">
+                    <img src="./assets/img10.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img">
+                    <p>Nos especializamos en cupcakes personalizados para eventos especiales, como bodas, cumpleaños y celebraciones corporativas.</p>
+                    </div>
+                </div>
+                <div class="imagenes1 img3">
+                    <img src="./assets/img7.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img">
+                        <p>Trabajamos de la mano con nuestros clientes para crear diseños exclusivos y memorables.</p>
+                    </div>
+                </div>
+                <div class="imagenes1 img4">
+                    <img src="./assets/img6.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img">
+                        <p>Horneamos momentos de felicidad</p>
+                    </div>
+                </div>
+                <div class="imagenes1 img5">
+                    <img src="./assets/img3.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img">
+                        <p>Sabor inigualable</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="galeriaImg2">
+            <article class="contenedor2">
+                <div class="imagenes2 img6">
+                    <img src="./assets/img5.jpeg" alt="img-proyecto">
+                </div>
+                <div class="imagenes2 img7">
+                    <img src="./assets/img8.jpeg" alt="img-proyecto">
+                </div>
+                <div class="imagenes2 img8">
+                    <img src="./assets/img2.jpeg" alt="img-proyecto">
+                    <div class="parrafo-img2">
+                        <p>¡Visítanos y descubre cómo un pequeño pastelito puede hacer grande tu día!</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- FOOTER - Pie de página -->
+    <footer>
+        <p>Práctica de desarrollo creada por &copy; Lauraaaact 2024</p>
+    </footer>
+</body>
+</html>
