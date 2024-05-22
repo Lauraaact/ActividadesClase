@@ -16,6 +16,7 @@ body {
     font-family: var(--tipografia);
     font-size: 20px;
     overflow-x: hidden;
+    width: 100vw;
 }
 /*header*/
 header{
@@ -29,6 +30,12 @@ header{
     display: grid;
     place-content: center;
     color: var(--colorfondo);
+    transition: all 500ms ease-in-out;
+}
+.titulo:active{
+    background-color: brown;
+    color: chartreuse;
+    transform: scale(1.2);
 }
 .contenedor-slider{
     border: solid 5px var(--colorEnfasis);
@@ -37,30 +44,44 @@ header{
     /*centrar contenedore*/
     margin: 100px auto;
     overflow-x: scroll;
+    overflow: hidden;
 }
 .slider{
     width: 100%;
     height: 100%;
     display: flex;
-    animation-name: rotar;
+    animation-name: deslizar;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: normal;
 }
-@keyframes rotar{
+@keyframes deslizar{
     from{
-        transform: rotate(0deg);
+        transform: translateX(0%)
+    }
+    50%{
+        transform: translateX(-150%);
     }
     to{
-        transform:rotate(360deg)
+        transform: translateX(-300%)
     }
 }
 .contenedor-slider img{
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 65vh;
     object-fit: cover;
 }
 /*main*/
+.main {
+    display: flex;
+}
+.contenido {
+    border: solid 5px var(--colorEnfasis);
+    width: 75%;
+    height: 65vh;
+    margin-bottom: 100px;
+    margin: 100px auto;
+}
 /*footer*/
 footer{
     height: 150px;
