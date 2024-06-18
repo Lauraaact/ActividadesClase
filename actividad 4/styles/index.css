@@ -1,0 +1,8 @@
+/* menú de navegación */
+*{
+    margin: 0;
+    padding: 0;
+}
+.miNavbar {
+    height: 100px;
+}
